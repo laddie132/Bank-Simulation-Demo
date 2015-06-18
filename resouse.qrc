@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>start.gif</file>
+        <file>bank.ico</file>
+    </qresource>
+</RCC>

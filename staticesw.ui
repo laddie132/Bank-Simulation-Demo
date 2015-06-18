@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>staticesw</class>
+ <widget class="QDialog" name="staticesw">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>662</width>
+    <height>517</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>数据统计系统</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{
+	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(144, 134, 255, 255), stop:1 rgba(255, 255, 255, 255));
+}</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>120</y>
+     <width>411</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 25 10pt &quot;微软雅黑 Light&quot;;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(113, 162, 200, 255), stop:1 rgba(255, 255, 255, 255));</string>
+   </property>
+   <row>
+    <property name="text">
+     <string>窗口1（VIP）</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>窗口2（VIP）</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>窗口3</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>窗口4</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>窗口5</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>窗口6</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>窗口7</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>窗口8</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>服务总客户</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>服务总时长（s）</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>平均服务时长（s）</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>20</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 25 12pt &quot;微软雅黑 Light&quot;;
+color: rgb(255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; text-decoration: underline;&quot;&gt;欢迎来到数据统计系统&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>70</y>
+     <width>381</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 36, 16);
+font: 25 11pt &quot;微软雅黑 Light&quot;;</string>
+   </property>
+   <property name="text">
+    <string>今日银行营业情况如下所示：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>420</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 25 10pt &quot;微软雅黑 Light&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>服务总普通客户人数：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>420</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 25 10pt &quot;微软雅黑 Light&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>服务总VIP客户人数：</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="normalnum">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>420</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(144, 134, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="vipnumber">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>420</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(144, 134, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>470</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(144, 134, 255, 255), stop:1 rgba(255, 255, 255, 255));
+font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
+   </property>
+   <property name="text">
+    <string>确认</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
