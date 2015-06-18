@@ -1,0 +1,12 @@
+<Projects version="2.0">
+	<Project active="1">bank.cfp</Project>
+	<File active="1">main.c</File>
+	<File active="0">cconfig.c</File>
+	<File active="0">vip.c</File>
+	<File active="0">statices.c</File>
+	<File active="0">pause.c</File>
+	<File active="0">pnumber.c</File>
+	<File active="0">print.c</File>
+	<File active="0">check.c</File>
+	<File active="0">work.c</File>
+</Projects>
