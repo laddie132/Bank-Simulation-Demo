@@ -64,6 +64,7 @@ void MainWindow::on_action_4_triggered()
                                  "<br><br>Built on June 16 2015 at 21:47:12"
 
                                 " <br><br>来自修订版本 2.4.0"
+                                 "<br><br>项目主页：https://github.com/laddie132/Virtual-Bank-System-2.0"
 
                                  " <br><br>作者：L.Laddie团队  主页：http://laddie132.pe.hu/"
 
