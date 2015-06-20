@@ -19,6 +19,8 @@ private slots:
     void on_pushButton_2_clicked();
     void initialize();
 
+    void on_pushButton_4_clicked();
+
 private:
     Ui::configw *ui;
 

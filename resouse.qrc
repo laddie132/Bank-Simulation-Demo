@@ -1,6 +1,11 @@
 <RCC>
     <qresource prefix="/image">
-        <file>start.gif</file>
         <file>bank.ico</file>
+        <file>images/1.jpg</file>
+        <file>images/3.jpg</file>
+        <file>images/5.jpg</file>
+        <file>images/table.png</file>
+        <file>start.gif</file>
+        <file>images/config.jpg</file>
     </qresource>
 </RCC>

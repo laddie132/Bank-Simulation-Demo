@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1013</width>
-    <height>577</height>
+    <width>1001</width>
+    <height>632</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -24,8 +24,7 @@
     <normaloff>:/image/bank.ico</normaloff>:/image/bank.ico</iconset>
   </property>
   <property name="styleSheet">
-   <string notr="true">font: 25 10pt &quot;微软雅黑 Light&quot;;
-</string>
+   <string notr="true">font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QGroupBox" name="groupBox">
@@ -33,32 +32,35 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>1021</width>
-      <height>551</height>
+      <width>1001</width>
+      <height>611</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">QGroupBox{
-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(16, 140, 255, 255), stop:1 rgba(255, 255, 255, 255));
+
 font: 25 10pt &quot;微软雅黑 Light&quot;;
 setScaledContents:(true);
+	
+	background-image: url(:/image/images/1.jpg);
 }</string>
     </property>
     <property name="title">
-     <string>虚拟银行</string>
+     <string/>
     </property>
     <widget class="QPushButton" name="outbank">
      <property name="geometry">
       <rect>
-       <x>880</x>
-       <y>450</y>
+       <x>890</x>
+       <y>540</y>
        <width>91</width>
        <height>31</height>
       </rect>
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(16, 140, 255, 255), stop:1 rgba(255, 255, 255, 255));border-radius: 3px; font: 25 10pt &quot;微软雅黑 Light&quot;;setSizePolicy:(QSizePolicy::Expanding,QSizePolicy::Expanding); } 
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 44, 44, 255), stop:1 rgba(255, 255, 255, 255));
+	border-radius: 3px; font: 25 10pt &quot;微软雅黑 Light&quot;;setSizePolicy:(QSizePolicy::Expanding,QSizePolicy::Expanding); } 
 QPushButton:hover { background-color: rgb(245, 69, 234); }</string>
      </property>
      <property name="text">
@@ -70,19 +72,21 @@ QPushButton:hover { background-color: rgb(245, 69, 234); }</string>
       <rect>
        <x>870</x>
        <y>90</y>
-       <width>111</width>
-       <height>51</height>
+       <width>121</width>
+       <height>61</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(16, 140, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
+      <string notr="true">
+border-image: url();
+border:2px solid rgb(255, 0, 0);</string>
      </property>
     </widget>
     <widget class="QGroupBox" name="groupBox_2">
      <property name="geometry">
       <rect>
-       <x>70</x>
-       <y>270</y>
+       <x>280</x>
+       <y>360</y>
        <width>191</width>
        <height>231</height>
       </rect>
@@ -90,13 +94,15 @@ QPushButton:hover { background-color: rgb(245, 69, 234); }</string>
      <property name="styleSheet">
       <string notr="true">QGroupBox{
 font: 25 10pt &quot;微软雅黑 Light&quot;;
-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(176, 186, 194, 255), stop:1 rgba(255, 255, 255, 255));
+
 border-radius: 3px;
 	color: rgb(255, 0, 0);
+background-image: url();
+
 }</string>
      </property>
      <property name="title">
-      <string>取号机</string>
+      <string/>
      </property>
      <widget class="QLineEdit" name="vipidtext">
       <property name="geometry">
@@ -133,7 +139,8 @@ background-color: rgb(255, 255, 255);</string>
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton {
-	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(113, 162, 200, 255), stop:1 rgba(255, 255, 255, 255));
+	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(144, 134, 255, 255), stop:1 rgba(255, 255, 255, 255));
  border-radius: 3px;  } QPushButton:hover { background-color: rgb(245, 69, 234); }
 
 </string>
@@ -159,7 +166,9 @@ background-color: rgb(255, 255, 255);</string>
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton {
-	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(113, 162, 200, 255), stop:1 rgba(255, 255, 255, 255));
+	
+	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(144, 134, 255, 255), stop:1 rgba(255, 255, 255, 255));
  border-radius: 3px;  } QPushButton:hover { background-color: rgb(245, 69, 234); }
 
 </string>
@@ -172,23 +181,26 @@ background-color: rgb(255, 255, 255);</string>
     <widget class="QGroupBox" name="groupBox_3">
      <property name="geometry">
       <rect>
-       <x>370</x>
+       <x>450</x>
        <y>270</y>
-       <width>381</width>
-       <height>241</height>
+       <width>361</width>
+       <height>251</height>
       </rect>
      </property>
      <property name="styleSheet">
       <string notr="true">QGroupBox{
-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(176, 186, 194, 255), stop:1 rgba(255, 255, 255, 255));
 font: 25 10pt &quot;微软雅黑 Light&quot;;
 border-radius: 3px;
 	
 	color: rgb(255, 0, 0);
+	
+
+background-image: url();
+
 }</string>
      </property>
      <property name="title">
-      <string>营业状态</string>
+      <string/>
      </property>
      <widget class="QLabel" name="label">
       <property name="geometry">
@@ -239,7 +251,7 @@ font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
 font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
       </property>
       <property name="text">
-       <string>是否等待下班：</string>
+       <string>营业状态：</string>
       </property>
      </widget>
      <widget class="QLCDNumber" name="maxnum">
@@ -258,20 +270,20 @@ font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
        </sizepolicy>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:1.016, fx:0.5, fy:0.505682, stop:0 rgba(16, 140, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(144, 134, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
       </property>
      </widget>
      <widget class="QLCDNumber" name="maxvnum">
       <property name="geometry">
        <rect>
-        <x>270</x>
+        <x>260</x>
         <y>40</y>
         <width>61</width>
         <height>31</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:1.016, fx:0.5, fy:0.505682, stop:0 rgba(16, 140, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(144, 134, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
       </property>
      </widget>
      <widget class="QLCDNumber" name="waitnum">
@@ -284,20 +296,20 @@ font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:1.016, fx:0.5, fy:0.505682, stop:0 rgba(16, 140, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(144, 134, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
       </property>
      </widget>
      <widget class="QLCDNumber" name="waitvnum">
       <property name="geometry">
        <rect>
-        <x>270</x>
+        <x>260</x>
         <y>90</y>
         <width>61</width>
         <height>31</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:1.016, fx:0.5, fy:0.505682, stop:0 rgba(16, 140, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(144, 134, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_4">
@@ -311,7 +323,7 @@ font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
       </property>
       <property name="styleSheet">
        <string notr="true">font: 75 11pt &quot;微软雅黑 Light&quot;;
-background-color: rgb(220, 220, 220);</string>
+</string>
       </property>
       <property name="text">
        <string>VIP</string>
@@ -328,7 +340,7 @@ background-color: rgb(220, 220, 220);</string>
       </property>
       <property name="styleSheet">
        <string notr="true">font: 75 10pt &quot;微软雅黑 Light&quot;;
-background-color: rgb(206, 206, 206);</string>
+</string>
       </property>
       <property name="text">
        <string>普通</string>
@@ -361,7 +373,7 @@ font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: qradialgradient(spread:pad, cx:0.506, cy:0.505364, radius:1.027, fx:0.5, fy:0.5, stop:0 rgba(94, 178, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
+       <string notr="true"/>
       </property>
       <property name="text">
        <string>TextLabel</string>
@@ -377,7 +389,7 @@ font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: qradialgradient(spread:pad, cx:0.506, cy:0.505364, radius:1.027, fx:0.5, fy:0.5, stop:0 rgba(94, 178, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
+       <string notr="true"/>
       </property>
       <property name="text">
        <string>TextLabel</string>
@@ -387,15 +399,18 @@ font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
     <widget class="QPushButton" name="towork">
      <property name="geometry">
       <rect>
-       <x>880</x>
-       <y>330</y>
+       <x>890</x>
+       <y>420</y>
        <width>91</width>
        <height>31</height>
       </rect>
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(16, 140, 255, 255), stop:1 rgba(255, 255, 255, 255));
+	
+	
+	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(141, 255, 84, 255), stop:1 rgba(255, 255, 255, 255));
  border-radius: 3px; font: 25 10pt &quot;微软雅黑 Light&quot;; } 
 QPushButton:hover { background-color: rgb(245, 69, 234); }
 
@@ -415,11 +430,11 @@ QPushButton:hover { background-color: rgb(245, 69, 234); }
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(176, 186, 194, 255), stop:1 rgba(255, 255, 255, 255));
-setSizePolicy:(QSizePolicy::Expanding, QSizePolicy::Expanding);
-setScaledContents:(true);
+      <string notr="true">QTableWidget{
 text-align: center; 
-border-radius: 3px;</string>
+border-radius: 3px;
+background-image: url(:/image/images/table.png);
+border:1px solid rgb(255, 0, 0);}</string>
      </property>
      <row>
       <property name="text">
@@ -475,19 +490,60 @@ border-radius: 3px;</string>
     <widget class="QPushButton" name="pausepush">
      <property name="geometry">
       <rect>
-       <x>880</x>
-       <y>390</y>
+       <x>890</x>
+       <y>480</y>
        <width>91</width>
        <height>31</height>
       </rect>
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(16, 140, 255, 255), stop:1 rgba(255, 255, 255, 255));border-radius: 3px; font: 25 10pt &quot;微软雅黑 Light&quot;; } 
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 255, 5, 255), stop:1 rgba(255, 255, 255, 255));
+	border-radius: 3px; font: 25 10pt &quot;微软雅黑 Light&quot;; } 
+
 QPushButton:hover { background-color: rgb(245, 69, 234); }</string>
      </property>
      <property name="text">
       <string>窗口暂停</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>210</y>
+       <width>181</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:36pt; color:#ffaa00;&quot;&gt;Global &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>300</y>
+       <width>181</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:36pt; color:#45cfcf;&quot;&gt;Bank&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>400</y>
+       <width>181</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:36pt; color:#aaff00;&quot;&gt;System&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
    </widget>
@@ -497,7 +553,7 @@ QPushButton:hover { background-color: rgb(245, 69, 234); }</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1013</width>
+     <width>1001</width>
      <height>25</height>
     </rect>
    </property>

@@ -38,7 +38,7 @@ int main(int argc, char **argv)
     label->show();
     QTime t;
     t.start();
-    while(t.elapsed()<5000)
+    while(t.elapsed()<4000)
     {
         QApplication::processEvents();
     }

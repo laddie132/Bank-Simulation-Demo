@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>531</width>
-    <height>412</height>
+    <width>596</width>
+    <height>460</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,13 +15,15 @@
   </property>
   <property name="styleSheet">
    <string notr="true">QDialog{
-	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(144, 134, 255, 255), stop:1 rgba(255, 255, 255, 255));
+	
+	
+	border-image: url(:/image/images/5.jpg);
 }</string>
   </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>180</x>
+     <x>310</x>
      <y>20</y>
      <width>151</width>
      <height>61</height>
@@ -32,15 +34,15 @@
 font: 25 14pt &quot;微软雅黑 Light&quot;;</string>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; text-decoration: underline;&quot;&gt;增加VIP客户&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; text-decoration: underline; color:#0055ff;&quot;&gt;增加VIP客户&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>100</y>
-     <width>368</width>
+     <x>280</x>
+     <y>90</y>
+     <width>221</width>
      <height>92</height>
     </rect>
    </property>
@@ -49,14 +51,14 @@ font: 25 14pt &quot;微软雅黑 Light&quot;;</string>
 font: 25 11pt &quot;微软雅黑 Light&quot;;</string>
    </property>
    <property name="text">
-    <string>请输入您需要增加的VIP客户的姓名，ID号和账户余额：</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;请输入您需要增加的VIP客户&lt;/p&gt;&lt;p&gt;的姓名，ID号和账户余额：&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QWidget" name="verticalLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>80</x>
-     <y>210</y>
+     <x>270</x>
+     <y>200</y>
      <width>81</width>
      <height>121</height>
     </rect>
@@ -100,8 +102,8 @@ font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
   <widget class="QWidget" name="verticalLayoutWidget_2">
    <property name="geometry">
     <rect>
-     <x>190</x>
-     <y>210</y>
+     <x>370</x>
+     <y>200</y>
      <width>181</width>
      <height>121</height>
     </rect>
@@ -133,14 +135,14 @@ font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>414</x>
-     <y>352</y>
+     <x>480</x>
+     <y>390</y>
      <width>81</width>
      <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(144, 134, 255, 255), stop:1 rgba(255, 255, 255, 255));
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(16, 140, 255, 255), stop:1 rgba(255, 255, 255, 255));
 font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
    </property>
    <property name="text">
@@ -150,14 +152,14 @@ font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>314</x>
-     <y>352</y>
+     <x>370</x>
+     <y>390</y>
      <width>81</width>
      <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(144, 134, 255, 255), stop:1 rgba(255, 255, 255, 255));
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(16, 140, 255, 255), stop:1 rgba(255, 255, 255, 255));
 font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
    </property>
    <property name="text">

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>568</width>
-    <height>404</height>
+    <width>558</width>
+    <height>433</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -27,148 +27,16 @@
    <string notr="true">QDialog{
 font: 25 10pt &quot;微软雅黑 Light&quot;;
 background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(16, 140, 255, 255), stop:1 rgba(255, 255, 255, 255));
-};
-
-font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
+	border-image: url(:/image/images/3.jpg);
+};</string>
   </property>
-  <widget class="QGroupBox" name="groupBox">
-   <property name="geometry">
-    <rect>
-     <x>210</x>
-     <y>130</y>
-     <width>301</width>
-     <height>146</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.57, fx:0.5, fy:0.505682, stop:0 rgba(16, 140, 255, 255), stop:1 rgba(255, 255, 255, 255));
-font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
-   </property>
-   <property name="title">
-    <string>登录</string>
-   </property>
-   <widget class="QWidget" name="gridLayoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>0</y>
-      <width>291</width>
-      <height>141</height>
-     </rect>
-    </property>
-    <layout class="QGridLayout" name="gridLayout">
-     <item row="2" column="2">
-      <widget class="QLabel" name="label">
-       <property name="styleSheet">
-        <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:1.016, fx:0.5, fy:0.505682, stop:0 rgba(16, 140, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
-       </property>
-       <property name="text">
-        <string>用户名：</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="0">
-      <spacer name="horizontalSpacer_2">
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>40</width>
-         <height>20</height>
-        </size>
-       </property>
-      </spacer>
-     </item>
-     <item row="2" column="4">
-      <spacer name="horizontalSpacer">
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>40</width>
-         <height>20</height>
-        </size>
-       </property>
-      </spacer>
-     </item>
-     <item row="0" column="2">
-      <spacer name="verticalSpacer">
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>20</width>
-         <height>40</height>
-        </size>
-       </property>
-      </spacer>
-     </item>
-     <item row="2" column="5">
-      <widget class="QLineEdit" name="loginname">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(255, 255, 255);</string>
-       </property>
-      </widget>
-     </item>
-     <item row="5" column="2">
-      <spacer name="verticalSpacer_2">
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>20</width>
-         <height>40</height>
-        </size>
-       </property>
-      </spacer>
-     </item>
-     <item row="3" column="2">
-      <widget class="QLabel" name="label_2">
-       <property name="styleSheet">
-        <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:1.016, fx:0.5, fy:0.505682, stop:0 rgba(16, 140, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
-       </property>
-       <property name="text">
-        <string>密码：</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="5">
-      <widget class="QLineEdit" name="loginpassword">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(255, 255, 255);</string>
-       </property>
-       <property name="echoMode">
-        <enum>QLineEdit::Password</enum>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="6">
-      <spacer name="horizontalSpacer_3">
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>40</width>
-         <height>20</height>
-        </size>
-       </property>
-      </spacer>
-     </item>
-    </layout>
-   </widget>
-  </widget>
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>20</y>
+     <x>80</x>
+     <y>-10</y>
      <width>351</width>
-     <height>61</height>
+     <height>71</height>
     </rect>
    </property>
    <property name="minimumSize">
@@ -185,13 +53,12 @@ font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
    </property>
    <property name="styleSheet">
     <string notr="true">QLabel{
-color: rgb(255, 255, 255);
-setFlat:(true);
 font: 25 11pt &quot;微软雅黑 Light&quot;;
+	color: rgb(69, 6, 85);
 }</string>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;欢迎来到模拟银行系统&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:400; font-style:italic;&quot;&gt;Welcome to Global Bank System&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
@@ -209,7 +76,7 @@ font: 25 11pt &quot;微软雅黑 Light&quot;;
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>470</x>
+     <x>460</x>
      <y>350</y>
      <width>71</width>
      <height>31</height>
@@ -217,7 +84,8 @@ font: 25 11pt &quot;微软雅黑 Light&quot;;
    </property>
    <property name="styleSheet">
     <string notr="true">QPushButton {
-	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(16, 140, 255, 255), stop:1 rgba(255, 255, 255, 255));
+	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(159, 209, 255, 255), stop:1 rgba(255, 255, 255, 255));
  border-radius: 3px; font: 25 10pt &quot;微软雅黑 Light&quot;; } 
 QPushButton:hover { background-color: rgb(245, 69, 234); }
 
@@ -230,7 +98,7 @@ QPushButton:hover { background-color: rgb(245, 69, 234); }
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>370</x>
+     <x>350</x>
      <y>350</y>
      <width>71</width>
      <height>31</height>
@@ -238,7 +106,8 @@ QPushButton:hover { background-color: rgb(245, 69, 234); }
    </property>
    <property name="styleSheet">
     <string notr="true">QPushButton {
-	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(16, 140, 255, 255), stop:1 rgba(255, 255, 255, 255));
+	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(159, 209, 255, 255), stop:1 rgba(255, 255, 255, 255));
  border-radius: 3px; font: 25 10pt &quot;微软雅黑 Light&quot;; } 
 QPushButton:hover { background-color: rgb(245, 69, 234); }
 
@@ -248,10 +117,143 @@ QPushButton:hover { background-color: rgb(245, 69, 234); }
     <string>登录</string>
    </property>
   </widget>
-  <zorder>groupBox</zorder>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>190</y>
+     <width>291</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="2" column="2">
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">
+font: 25 10pt &quot;微软雅黑 Light&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>用户名：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <spacer name="horizontalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="2" column="4">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="0" column="2">
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="2" column="5">
+     <widget class="QLineEdit" name="loginname">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <spacer name="verticalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="3" column="2">
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">
+font: 25 10pt &quot;微软雅黑 Light&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>密码：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="5">
+     <widget class="QLineEdit" name="loginpassword">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="6">
+     <spacer name="horizontalSpacer_3">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="2" column="1">
+     <spacer name="horizontalSpacer_4">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
   <zorder>pushButton</zorder>
   <zorder>pushButton_2</zorder>
   <zorder>label_3</zorder>
+  <zorder>gridLayoutWidget</zorder>
  </widget>
  <tabstops>
   <tabstop>loginname</tabstop>

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>574</width>
-    <height>435</height>
+    <width>610</width>
+    <height>468</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,15 +15,15 @@
   </property>
   <property name="styleSheet">
    <string notr="true">QDialog{
-	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(144, 134, 255, 255), stop:1 rgba(255, 255, 255, 255));
 	
+	border-image: url(:/image/images/5.jpg);
 };
-font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
+</string>
   </property>
   <widget class="QWidget" name="widget" native="true">
    <property name="geometry">
     <rect>
-     <x>80</x>
+     <x>280</x>
      <y>190</y>
      <width>261</width>
      <height>161</height>
@@ -79,10 +79,10 @@ font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
   <widget class="QLabel" name="inform">
    <property name="geometry">
     <rect>
-     <x>70</x>
-     <y>120</y>
-     <width>381</width>
-     <height>51</height>
+     <x>320</x>
+     <y>110</y>
+     <width>211</width>
+     <height>61</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -90,14 +90,14 @@ font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
 color: rgb(255, 77, 23);</string>
    </property>
    <property name="text">
-    <string>请选择以下一个选项来增加、删除或更新某个VIP客户：</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;请选择以下一个选项来增&lt;/p&gt;&lt;p&gt;加、删除或更新某个VIP客户：&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="title">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>30</y>
+     <x>260</x>
+     <y>20</y>
      <width>321</width>
      <height>61</height>
     </rect>
@@ -107,20 +107,20 @@ color: rgb(255, 77, 23);</string>
 color: rgb(255, 255, 0);</string>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; text-decoration: underline;&quot;&gt;欢迎来到VIP客户资料维护系统&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; text-decoration: underline; color:#0055ff;&quot;&gt;欢迎来到VIP客户资料维护系统&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>340</x>
-     <y>380</y>
+     <x>350</x>
+     <y>400</y>
      <width>81</width>
      <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(144, 134, 255, 255), stop:1 rgba(255, 255, 255, 255));
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(16, 140, 255, 255), stop:1 rgba(255, 255, 255, 255));
 font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
    </property>
    <property name="text">
@@ -130,14 +130,14 @@ font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>450</x>
-     <y>380</y>
+     <x>470</x>
+     <y>400</y>
      <width>81</width>
      <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(144, 134, 255, 255), stop:1 rgba(255, 255, 255, 255));
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(16, 140, 255, 255), stop:1 rgba(255, 255, 255, 255));
 font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
    </property>
    <property name="text">

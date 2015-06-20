@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>417</width>
-    <height>325</height>
+    <width>540</width>
+    <height>422</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -26,7 +26,8 @@
   <property name="styleSheet">
    <string notr="true">QDialog{
 font: 25 10pt &quot;微软雅黑 Light&quot;;
-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(107, 179, 200, 255), stop:1 rgba(255, 255, 255, 255));
+	
+	border-image: url(:/image/images/config.jpg);
 };
 
 </string>
@@ -34,9 +35,9 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgb
   <widget class="QWidget" name="gridLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>20</y>
-     <width>351</width>
+     <x>70</x>
+     <y>90</y>
+     <width>363</width>
      <height>241</height>
     </rect>
    </property>
@@ -44,8 +45,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgb
     <item row="7" column="1">
      <widget class="QLabel" name="label">
       <property name="styleSheet">
-       <string notr="true">font: 25 10pt &quot;微软雅黑 Light&quot;;
-</string>
+       <string notr="true">font: 25 11pt &quot;微软雅黑 Light&quot;;</string>
       </property>
       <property name="text">
        <string>服务策略</string>
@@ -56,7 +56,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgb
      <widget class="QLineEdit" name="maxseqlen_2">
       <property name="styleSheet">
        <string notr="true">background-color: rgb(255, 255, 255);
-font: 25 9pt &quot;微软雅黑 Light&quot;;</string>
+font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
       </property>
       <property name="text">
        <string/>
@@ -80,7 +80,7 @@ font: 25 9pt &quot;微软雅黑 Light&quot;;</string>
      <widget class="QLineEdit" name="maxrest_2">
       <property name="styleSheet">
        <string notr="true">background-color: rgb(255, 255, 255);
-font: 25 9pt &quot;微软雅黑 Light&quot;;</string>
+font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
       </property>
      </widget>
     </item>
@@ -88,7 +88,7 @@ font: 25 9pt &quot;微软雅黑 Light&quot;;</string>
      <widget class="QLineEdit" name="minsec_2">
       <property name="styleSheet">
        <string notr="true">background-color: rgb(255, 255, 255);
-font: 25 9pt &quot;微软雅黑 Light&quot;;</string>
+font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
       </property>
      </widget>
     </item>
@@ -109,7 +109,7 @@ font: 25 9pt &quot;微软雅黑 Light&quot;;</string>
      <widget class="QLineEdit" name="maxsec_2">
       <property name="styleSheet">
        <string notr="true">background-color: rgb(255, 255, 255);
-font: 25 9pt &quot;微软雅黑 Light&quot;;</string>
+font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
       </property>
      </widget>
     </item>
@@ -117,7 +117,7 @@ font: 25 9pt &quot;微软雅黑 Light&quot;;</string>
      <widget class="QLineEdit" name="minrest_2">
       <property name="styleSheet">
        <string notr="true">background-color: rgb(255, 255, 255);
-font: 25 9pt &quot;微软雅黑 Light&quot;;</string>
+font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
       </property>
      </widget>
     </item>
@@ -125,7 +125,7 @@ font: 25 9pt &quot;微软雅黑 Light&quot;;</string>
      <widget class="QLineEdit" name="vipservlen_2">
       <property name="styleSheet">
        <string notr="true">background-color: rgb(255, 255, 255);
-font: 25 9pt &quot;微软雅黑 Light&quot;;</string>
+font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
       </property>
      </widget>
     </item>
@@ -135,7 +135,7 @@ font: 25 9pt &quot;微软雅黑 Light&quot;;</string>
        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;最大队列长度&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
       <property name="styleSheet">
-       <string notr="true">font: 25 10pt &quot;微软雅黑 Light&quot;;
+       <string notr="true">font: 25 11pt &quot;微软雅黑 Light&quot;;
 </string>
       </property>
       <property name="text">
@@ -149,7 +149,7 @@ font: 25 9pt &quot;微软雅黑 Light&quot;;</string>
        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;最短服务时长&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
       <property name="styleSheet">
-       <string notr="true">font: 25 10pt &quot;微软雅黑 Light&quot;;
+       <string notr="true">font: 25 11pt &quot;微软雅黑 Light&quot;;
 </string>
       </property>
       <property name="text">
@@ -163,8 +163,7 @@ font: 25 9pt &quot;微软雅黑 Light&quot;;</string>
        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;最长服务时长&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
       <property name="styleSheet">
-       <string notr="true">font: 25 10pt &quot;微软雅黑 Light&quot;;
-</string>
+       <string notr="true">font: 25 11pt &quot;微软雅黑 Light&quot;;</string>
       </property>
       <property name="text">
        <string>MaxSec</string>
@@ -177,8 +176,7 @@ font: 25 9pt &quot;微软雅黑 Light&quot;;</string>
        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;最长休息时长&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
       <property name="styleSheet">
-       <string notr="true">font: 25 10pt &quot;微软雅黑 Light&quot;;
-</string>
+       <string notr="true">font: 25 11pt &quot;微软雅黑 Light&quot;;</string>
       </property>
       <property name="text">
        <string>MaxRestSec</string>
@@ -191,8 +189,7 @@ font: 25 9pt &quot;微软雅黑 Light&quot;;</string>
        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;动态关闭vip窗口检查时间&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
       <property name="styleSheet">
-       <string notr="true">font: 25 10pt &quot;微软雅黑 Light&quot;;
-</string>
+       <string notr="true">font: 25 11pt &quot;微软雅黑 Light&quot;;</string>
       </property>
       <property name="text">
        <string>VIPSERVLen</string>
@@ -205,8 +202,7 @@ font: 25 9pt &quot;微软雅黑 Light&quot;;</string>
        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;最短休息时长&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
       <property name="styleSheet">
-       <string notr="true">font: 25 10pt &quot;微软雅黑 Light&quot;;
-</string>
+       <string notr="true">font: 25 11pt &quot;微软雅黑 Light&quot;;</string>
       </property>
       <property name="text">
        <string>MinRestSec</string>
@@ -271,8 +267,7 @@ font: 25 9pt &quot;微软雅黑 Light&quot;;</string>
     <item row="7" column="3">
      <widget class="QComboBox" name="comboBox">
       <property name="styleSheet">
-       <string notr="true">font: 25 9pt &quot;微软雅黑 Light&quot;;
-</string>
+       <string notr="true">font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
       </property>
       <item>
        <property name="text">
@@ -291,60 +286,64 @@ font: 25 9pt &quot;微软雅黑 Light&quot;;</string>
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>310</x>
-     <y>290</y>
-     <width>75</width>
-     <height>23</height>
+     <x>420</x>
+     <y>360</y>
+     <width>91</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">font: 25 10pt &quot;微软雅黑 Light&quot;;
-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(107, 179, 200, 255), stop:1 rgba(255, 255, 255, 255));
-
-</string>
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 170, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
    </property>
    <property name="text">
     <string>确认（&amp;Y）</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_3">
+  <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>210</x>
-     <y>290</y>
-     <width>75</width>
-     <height>23</height>
+     <x>190</x>
+     <y>20</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; text-decoration: underline; color:#00ff00;&quot;&gt;修改配置文件&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>360</y>
+     <width>91</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">font: 25 10pt &quot;微软雅黑 Light&quot;;
-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(107, 179, 200, 255), stop:1 rgba(255, 255, 255, 255));
-</string>
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 170, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
    </property>
    <property name="text">
     <string>取消（&amp;N）</string>
    </property>
   </widget>
  </widget>
+ <tabstops>
+  <tabstop>maxseqlen_2</tabstop>
+  <tabstop>minsec_2</tabstop>
+  <tabstop>maxsec_2</tabstop>
+  <tabstop>minrest_2</tabstop>
+  <tabstop>maxrest_2</tabstop>
+  <tabstop>vipservlen_2</tabstop>
+  <tabstop>comboBox</tabstop>
+  <tabstop>pushButton_2</tabstop>
+  <tabstop>pushButton_4</tabstop>
+ </tabstops>
  <resources>
   <include location="resouse.qrc"/>
  </resources>
- <connections>
-  <connection>
-   <sender>pushButton_3</sender>
-   <signal>clicked()</signal>
-   <receiver>configw</receiver>
-   <slot>reject()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>210</x>
-     <y>267</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>151</x>
-     <y>249</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
 </ui>

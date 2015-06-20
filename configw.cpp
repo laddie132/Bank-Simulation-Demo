@@ -119,3 +119,8 @@ void configw::initialize()
     this->ui->maxseqlen_2->setFocus();
     return;
 }
+
+void configw::on_pushButton_4_clicked()
+{
+    this->close();
+}
