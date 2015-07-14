@@ -50,6 +50,8 @@ private slots:
 
     void on_actionVIP_triggered();
 
+    void on_action_7_triggered();
+
 private:
     Ui::MainWindow *ui;
     configw *configw1;

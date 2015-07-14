@@ -2,11 +2,14 @@
 #include "ui_mainwindow.h"
 #include <qmessagebox.h>
 #include <qinputdialog.h>
+#include <qdesktopservices.h>
 #include <qdatetime.h>
 #include <qtimer.h>
 #include <QTime>
 #include "bank.h"
 #include <time.h>
+#include <qurl.h>
+#include <qfileinfo.h>
 
 extern int iswait,isclose,maxnumber,counts,vmaxnumber,vcounts,current,vcurrent,tactic,iswork;
 extern time_t rest[8];
@@ -224,4 +227,9 @@ void MainWindow::on_action_6_triggered()
 void MainWindow::on_actionVIP_triggered()
 {
     vipinform1->show();
+}
+
+void MainWindow::on_action_7_triggered()
+{
+    QDesktopServices::openUrl(QUrl::fromLocalFile(QFileInfo("bank.chm").absoluteFilePath()));
 }

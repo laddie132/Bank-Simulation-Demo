@@ -28,7 +28,7 @@ int pnumber(char ch)
                 int oks=0;
                 fread(&a,sizeof(customer),1,fptr);
                 while(!feof(fptr)){
-                    if(!strcmp(&vipid[1],a.ID)){
+                    if(!strcmp(&vipid[2],a.ID)){
                         oks=1;
                         break;
                     }
