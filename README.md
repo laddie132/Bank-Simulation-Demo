@@ -1,4 +1,12 @@
-# Virtual-Bank-System-1.1.0
+# VirtualBankSystem 1.0
 
-(This is a version of command line.)
+(This is a homework for the course of "程序设计实践".)
 
+## Interface：CLI
+![CLI](https://github.com/laddie132/VirtualBankSystem/tree/CLI/images/1.png)
+
+## Features
+- Customer queuing
+- VIP priority
+- Service time random within a certain range
+- Multi-window parallel service
