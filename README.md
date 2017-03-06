@@ -4,8 +4,10 @@
 
 ## Interface：GUI
 Login
-![login]()
-![main]()
+![login](https://github.com/laddie132/VirtualBankSystem/blob/master/images/1.png)
+
+Main
+![main](https://github.com/laddie132/VirtualBankSystem/blob/master/images/2.png)
 
 ## Features
 
