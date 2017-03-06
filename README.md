@@ -3,7 +3,7 @@
 (This is a homework for the course of "程序设计实践".)
 
 ## Interface：CLI
-![CLI](https://github.com/laddie132/VirtualBankSystem/tree/CLI/images/1.png)
+![CLI](https://github.com/laddie132/VirtualBankSystem/blob/CLI/images/1.png)
 
 ## Features
 - Customer queuing
