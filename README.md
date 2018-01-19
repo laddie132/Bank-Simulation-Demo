@@ -1,6 +1,6 @@
-# VirtualBankSystem 2.0
+# Bank Simulation
 
-(This is a homework for the course of "程序设计实践".)
+simulate the daily operation of the bank, just for practice.
 
 ## Interface：GUI
 Login
