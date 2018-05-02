@@ -1,13 +1,8 @@
 # Bank Simulation
 
-simulate the daily operation of the bank, just for practice.
+This is a homework of CS course. We simulate the daily operation of the bank.
 
-## Interface：GUI
-Login
-![login](https://github.com/laddie132/VirtualBankSystem/blob/master/images/1.png)
-
-Main
-![main](https://github.com/laddie132/VirtualBankSystem/blob/master/images/2.png)
+![main](https://github.com/laddie132/VirtualBankSystem/blob/master/images/1.png)
 
 ## Features
 
